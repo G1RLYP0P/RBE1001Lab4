@@ -1,3 +1,12 @@
+# ---------------------------------------------------------------------------- #
+#                                                                              #
+# 	Module:       main.py                                                      #
+# 	Author:       thesimg                                                      #
+# 	Created:      2/16/2025, 6:40:46 PM                                        #
+# 	Description:  V5 project                                                   #
+#                                                                              #
+# ---------------------------------------------------------------------------- #
+
 '''
 This code demonstrates a basic search and drive towards behaviour with the camera.
 The robot has three states:
@@ -102,7 +111,7 @@ def checkForFruit():
         print("Both fruits detected, " + str(bothViews) + " times")
     elif(seesLime):
         limeViews += 1
-        print("Only Lemon detected, " + str(limeViews) + " times")
+        print("Only Lime detected, " + str(limeViews) + " times")
     elif(seesDragonfruit):
         dragonfruitViews += 1
         print("Only Dragonfruit detected, " + str(dragonfruitViews) + " times")
